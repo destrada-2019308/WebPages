@@ -37,27 +37,27 @@ section article:hover {
     box-shadow: 0 0.1em .4em #364552;
 }
 
-footer {
+.link {
     background-color: #364552;
     padding: 3em;
     color: #fff;
 }
 
-footer section {
+.link section {
     float: right;
 }
 
-footer a {
+.link a {
     color: #fff;
     text-decoration: none;
     margin: 0 0.5em;
 }
 
-footer p {
+.link p {
     margin: 0;
 }
 
-footer a:hover {
+.link a:hover {
     color: cornflowerblue;
     transition: color 0.5s ease;
 }
@@ -66,4 +66,9 @@ footer a:hover {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.header{
+    padding: 0;
+    width: 5rem;
 }
