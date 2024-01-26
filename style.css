@@ -1,74 +1,66 @@
-body {
-    margin: 0;
-    background-color: #efefef;
+html{
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    background-color: #364552;
-    color: white;
-    padding: 1em;
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #0a0c0d;
 }
 
-header h1 {
-    font-size: 2em;
-    text-align: center;
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
-.container {
-    width: 400px;
-    margin: 0 auto;     
+header{
+    background-color: #1c5052;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-section article {
+#bio{
+    float: left;
+    margin-right: 20%;
+}
+
+#kinal{
+    float: right;
+    margin-left: 20%;
+}
+
+section article{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.container{
     transition: box-shadow 0.3s ease;
     background-color: #fff;
-    margin: 1em 0;
-    border-radius: 0.5em;
-    padding: 0.25em 0;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
     cursor: pointer;
+    width: 50rem;
+    height: auto;
+    margin: 1rem;
 }
 
-section article h2, section article p {
-    margin: 1em;
+.container:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,30%);
+
 }
 
-section article:hover {
-    box-shadow: 0 0.1em .4em #364552;
+.container h3, .container p {
+    margin: 1rem;
 }
 
-.link {
-    background-color: #364552;
-    padding: 3em;
-    color: #fff;
-}
-
-.link section {
-    float: right;
-}
-
-.link a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 0.5em;
-}
-
-.link p {
-    margin: 0;
-}
-
-.link a:hover {
-    color: cornflowerblue;
-    transition: color 0.5s ease;
-}
-
-.divi img{
+img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-}
-
-.header{
-    padding: 0;
-    width: 5rem;
 }
