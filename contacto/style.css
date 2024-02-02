@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: url('../img/imgContac.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.side-bar{
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.side-bar .menu{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.side-bar .menu .class{
+    position: relative;
+    cursor: pointer;
+}
+
+.side-bar .menu .class a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 50px;
+}
+
+.side-bar .menu .class a:hover{
+    background: #35343c;
+    color: #fff;
+    transition: .5s ease;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    margin-left: 200px;
+    width: 800px;
+    text-align: center;
+}
+
+.content ul{
+    list-style: none;
+    width: 500px;
+}
+
+.content ul li{
+    border-radius: 7px;
+    background-color: #35343c;
+    padding: 15px;
+    margin: 10px;
+    width: 500px;
+    white-space: break-word;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.content ul li:hover{
+    background-color: #bac9a9;
+    color: #35343c;
+    transition: .5s;
+}
+
+.content ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.content h2{
+    font-size: 20px;
+    color: #fff;
+    width: 500px;
+}
+
+.btn-content{
+    width: 100%;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: #35343c;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin: 10px;
+}
